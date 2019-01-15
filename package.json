@@ -1,0 +1,27 @@
+{
+  "name": "mathjax-examples",
+  "version": "1.0.0",
+  "description": "MathJax example HTML pages",
+  "main": "index.js",
+  "scripts": {
+    "build": "bash -c 'rm -rf lib && mkdir -p lib && cp -r node_modules/@gerhobbelt/mathjax/* lib/'",
+    "test": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathjax/MathJax-examples.git"
+  },
+  "keywords": [
+    "math",
+    "MathJax"
+  ],
+  "author": "The MathJax Consortium",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mathjax/MathJax-examples/issues"
+  },
+  "homepage": "https://github.com/mathjax/MathJax-examples#readme",
+  "dependencies": {
+    "@gerhobbelt/mathjax": "2.7.4-5"
+  }
+}
